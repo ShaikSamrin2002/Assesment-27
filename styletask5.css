@@ -1,0 +1,28 @@
+tml,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    background-color: #ffeecc;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+    transition: tranform 0.8s ease-in-out;
+
+}
+.image:hover{
+    background-color: lightblue;
+    transform: scale(1.2);
+}
