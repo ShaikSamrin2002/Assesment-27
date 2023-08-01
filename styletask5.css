@@ -8,12 +8,23 @@ tml,body{
     justify-content: center;
     align-items: center;
 }
-.image{
-    height: 200px;
-    width: 200px;
+.quran{
+   
     background-color: #ffeecc;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-right: 150px;
+   
+    margin-top: 200px;
+    
+    transition: tranform 0.8s ease-in-out;
+
+}
+.laptop{
+   
+    background-color: #ffeecc;
+    border: 1px solid black;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +32,30 @@ tml,body{
     
     transition: tranform 0.8s ease-in-out;
 
+
 }
-.image:hover{
+
+.samrin{
+   
+    background-color: #ffeecc;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 200px;
+    
+    transition: tranform 0.8s ease-in-out;
+
+}
+
+.quran:hover{
+    background-color: lightblue;
+    transform: scale(1.2);
+}
+.samrin:hover{
+    background-color: lightblue;
+    transform: scale(1.2);
+}
+.laptop:hover{
     background-color: lightblue;
     transform: scale(1.2);
 }
